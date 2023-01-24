@@ -1,0 +1,21 @@
+{
+	"name": "threejs",
+	"source": "index.html",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"staticFiles": {
+		"staticOutPath": "./model",
+		"staticPath": "./model"
+	},
+	"scripts": {
+		"start": "parcel",
+		"start2": "parcel index2.html",
+		"build": "parcel build"
+	},
+	"devDependencies": {
+		"parcel": "^2.8.2",
+		"parcel-reporter-static-files-copy": "^1.5.0"
+	},
+	"dependencies": {
+		"three": "^0.148.0"
+	}
+}
